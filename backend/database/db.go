@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 	"log"
-
+	"github.com/joho/godotenv"
 	_ "github.com/mattn/go-sqlite3"
 )
 
